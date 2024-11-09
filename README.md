@@ -3,9 +3,18 @@ A curated list of resources (paper, code, data) on video understanding research.
 
 ---
 **Table of Contents**
-- [Models](#Models)
-- [Benchmarks](#Benchmarks)
-- [Datasets](#Datasets)
+- [Models](#models)
+  - [Video LLMs](#video-llms)
+  - [Agents](#agents)
+- [Benchmarks](#benchmarks)
+  - [QA](#qa)
+  - [Caption](#caption)
+  - [Temporal-Grounding](#temporal-grounding)
+  - [Hallucination](#hallucination)
+- [Datasets](#datasets)
+  - [Pre-Training](#pre-training)
+  - [Instruction-Tuning](#instruction-tuning)
+  - [RLHF](#rlhf)
 - [Research Topics](#research-topics)
 ---
 
