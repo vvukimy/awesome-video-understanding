@@ -52,16 +52,17 @@ A curated list of resources (paper, code, data) on video understanding research.
 | Name | Paper | Metadata | Note |
 |:---|:---|:---|:---|
 | **VDC** <br> @UW | [AuroraCap: Efficient, Performant Video Detailed Captioning and a New Benchmark](https://arxiv.org/abs/2410.03051) <br> 24.10.04 / ArXiv / [Project Page](https://rese1f.github.io/aurora-web/) | GPT-4o Annotated / 1027 videos / 0~60s / 1027 captions | Evaluate Captioning using QAs |
-### Temporal-Grounding
+### Temporal Grounding
 | Name | Paper | Metadata | Note |
 |:---|:---|:---|:---|
+| **QVHightlight** <br> @UNC | [QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://arxiv.org/abs/2107.09609) <br> 21.07.20 / NIPS'21 / [Project Page](https://github.com/jayleicn/moment_detr) | **Human Annotated** / 10K videos / avg. 150s / 10K queries | / |
 | **Charades-STA** <br> @USC| [TALL: Temporal Activity Localization via Language Query](https://arxiv.org/abs/1705.02101) <br> 17.05.05 / ICCV'17 / [Project Page](https://github.com/jiyanggao/TALL) | Rule+Human Annotated / 4233 clip-sentence pairs | / |
 | **ActivityNet Captions** <br> @Stanford| [Dense-Captioning Events in Videos](https://arxiv.org/abs/1705.00754) <br> 17.05.05 / ICCV'17 / [Project Page](https://cs.stanford.edu/people/ranjaykrishna/densevid/) | Human Annotated / 20K videos / 0~270s | / |
 | **YouCook2** <br> @Google Brain | [Towards Automatic Learning of Procedures from Web Instructional Videos]() <br> 17.03.28 / AAAI'18 / [Project Page](http://youcook2.eecs.umich.edu/) | **Human Annotated** / 2K videos / 0~800s / avg. 7.7 segments per video | / |
 ### Hallucination
 | Name | Paper | Metadata | Note |
 |:---|:---|:---|:---|
-| **VideoHallucer** <br> @BIGAI | [VideoHallucer: Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models](https://arxiv.org/abs/2406.16338) / 24.06.24 / ArXiv / [Project Page](https://videohallucer.github.io/) | Rule+Human Annotated / 948 videos / 7~187s / 1.8K QAs | / |
+| **VideoHallucer** <br> @BIGAI | [VideoHallucer: Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models](https://arxiv.org/abs/2406.16338) <br> 24.06.24 / ArXiv / [Project Page](https://videohallucer.github.io/) | Rule+Human Annotated / 948 videos / 7~187s / 1.8K QAs | / |
 
 ## Datasets
 ### Pre-Training
