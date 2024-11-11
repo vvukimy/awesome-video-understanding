@@ -12,6 +12,7 @@ A curated list of resources (paper, code, data) on video understanding research.
   - [General QA](#general-qa)
   - [Caption](#caption)
   - [Temporal-Grounding](#temporal-grounding)
+  - [Action Recognition](#action-recognition)
   - [Hallucination](#hallucination)
 - [Datasets](#datasets)
   - [Pre-Training](#pre-training)
@@ -19,6 +20,7 @@ A curated list of resources (paper, code, data) on video understanding research.
   - [RLHF](#rlhf)
 - [Research Topics](#research-topics)
   - [Visual Encoding](#visual-encoding)
+  - [Visual Token Reduction](#visual-token-reduction)
   - [Streaming](#streaming)
 ---
 
@@ -65,6 +67,10 @@ A curated list of resources (paper, code, data) on video understanding research.
 | **Charades-STA** <br> @USC| [TALL: Temporal Activity Localization via Language Query](https://arxiv.org/abs/1705.02101) <br> 17.05.05 / ICCV'17 / [Project Page](https://github.com/jiyanggao/TALL) | Rule+Human Annotated / 4233 clip-sentence pairs | / |
 | **ActivityNet Captions** <br> @Stanford| [Dense-Captioning Events in Videos](https://arxiv.org/abs/1705.00754) <br> 17.05.05 / ICCV'17 / [Project Page](https://cs.stanford.edu/people/ranjaykrishna/densevid/) | **Human Annotated** / 20K videos / 0~270s | / |
 | **YouCook2** <br> @Google Brain | [Towards Automatic Learning of Procedures from Web Instructional Videos]() <br> 17.03.28 / AAAI'18 / [Project Page](http://youcook2.eecs.umich.edu/) | **Human Annotated** / 2K videos / 0~800s / avg. 7.7 segments per video | / |
+### Action Recognition
+| Name | Paper | Metadata | Note |
+|:---|:---|:---|:---|
+| **FineGym** <br> @CUHK | [FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding](https://arxiv.org/abs/2004.06704) <br> 20.04.14 / CVPR'20 / [Project Page](https://sdolivia.github.io/FineGym/) | **Human Annotated** | / |
 ### Hallucination
 | Name | Paper | Metadata | Note |
 |:---|:---|:---|:---|
@@ -91,6 +97,14 @@ A curated list of resources (paper, code, data) on video understanding research.
 |:---|:---|:---|
 | **ElasticTok** <br> @Berkeley | [ElasticTok: Adaptive Tokenization for Image and Video](https://arxiv.org/abs/2410.08368) <br> 24.10.10 / ArXiv / [Project Page](https://largeworldmodel.github.io/elastictok/) | Visual Tokenizer |
 | **VideoPrism** <br> @Google | [VideoPrism: A Foundational Visual Encoder for Video Understanding](https://arxiv.org/abs/2402.13217) <br> 24.02.20 / ICML'24 / [Project Page](https://research.google/blog/videoprism-a-foundational-visual-encoder-for-video-understanding/) | Video Encoder |
+| **MMVP** <br> @NYU | [Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs](https://arxiv.org/abs/2401.06209) <br> 24.01.11 / ArXiv / [Project Page](https://tsb0601.github.io/mmvp_blog/) | Hybrid Encoder |
+### Visual Token Reduction
+| Name | Paper | Note |
+|:---|:---|:---|
+| **RLT**  <br> @CMU | [Don't Look Twice: Faster Video Transformers with Run-Length Tokenization](https://arxiv.org/abs/2411.05222) <br> 24.11.07 / NIPS'24 / [Project Page](https://rccchoudhury.github.io/rlt/) | Run-Length Tokenization |
+| **InTI** <br> @NJU | [Dynamic and Compressive Adaptation of Transformers From Images to Videos](https://arxiv.org/abs/2408.06840) <br> 24.08.13 / ECCV'24 / [Project Page]() | Dynamic Inter-frame token interpolation |
+| **Cambrian-1** <br> @NYU | [Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs](https://arxiv.org/abs/2406.16860) <br> 24.06.24 / ArXiv / [Project Page](https://cambrian-mllm.github.io/) | Spatial Vision Aggregator |
+| **FastV** <br> @PKU | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) <br> 24.03.11 / ECCV'24 / [Project Page](https://github.com/pkunlp-icler/FastV) | Prune tokens after layer 2 |
 ### Streaming
 | Name | Paper | Note |
 |:---|:---|:---|
