@@ -28,6 +28,9 @@ A curated list of resources (paper, code, data) on video understanding research.
 ### Large Multimodal Models
 | Name | Paper | Task | Note |
 |:---|:---|:---|:---|
+| **Apollo** <br> @Meta | [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://arxiv.org/abs/2412.10360) <br> 24.12.13 / ArXiv / [Project Page](https://apollo-lmms.github.io/) | General QA | / |
+| **InternVL2.5** <br> @Nvidia | [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) <br> 24.12.06 / ArXiv / [Project Page](https://internvl.github.io/blog/2024-12-05-InternVL-2.5/) | General QA | / |
+| **NVILA** <br> @Nvidia | [NVILA: Efficient Frontier Visual Language Models](https://arxiv.org/abs/2412.04468) <br> 24.12.05 / ArXiv / [Project Page](https://github.com/NVlabs/VILA) | General QA | / |
 | **LongVU** <br> @Meta | [LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding](https://arxiv.org/abs/2410.17434) <br> 24.10.22 / ArXiv / [Project Page](https://vision-cair.github.io/LongVU/) | General QA | / |
 | **Aria** <br> @Rhymes AI | [Aria: An Open Multimodal Native Mixture-of-Experts Model](https://arxiv.org/abs/2410.05993) <br>  24.10.08 / ArXiv / [Project Page](https://github.com/rhymes-ai/Aria) | General QA / Caption | / |
 | **LLaVA-Video** <br> @ByteDance | [Video Instruction Tuning with Synthetic Data](https://arxiv.org/abs/2410.02713) <br> 24.10.03 / ArXiv / [Project Page](https://llava-vl.github.io/blog/2024-09-30-llava-video/) | General QA / Caption | / |
@@ -108,4 +111,5 @@ A curated list of resources (paper, code, data) on video understanding research.
 ### Streaming
 | Name | Paper | Note |
 |:---|:---|:---|
+| **StreamChat** <br> @CUHK | [StreamChat: Chatting with Streaming Video](https://arxiv.org/abs/2412.08646) <br> 24.12.11 / ArXiv'24 / [Project Page](https://jihaonew.github.io/projects/streamchat.html) | / |
 | **Streaming_VDC** <br> @Google | [Streaming Dense Video Captioning](https://arxiv.org/abs/2404.01297) <br> 24.04.01 / CVPR'24 / [Project Page](https://github.com/google-research/scenic/tree/main/scenic/projects/streaming_dvc) | Framework |
